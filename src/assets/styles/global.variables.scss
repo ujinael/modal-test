@@ -1,0 +1,20 @@
+// COLORS
+:root{
+--color-text-main:#eee9e9;
+--color-text-accent:#b3b3b3;
+--color-text-input:#292828;
+--color-text-headers:#efe6e6;
+--color-bg-main:#000f2a;
+--color-bg-headers:#ccf0fb;
+--color-danger:#da2a1a;
+--color-accept:#1bc581;
+--color-default:var(--color-bg-headers);
+--color-shadows:#1b2840;
+--color-text-errors:var(--color-danger);
+
+
+}
+//GEOMETRY
+:root{
+--border-radius-common:10px;
+}

@@ -1,0 +1,18 @@
+.ui_input {
+  display: inline-block;
+  margin: 0;
+  padding: 0.5em 0.5em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1.2em;
+  background-color: var(--color-bg-headers);
+  border: 2px solid var(--color-bg-headers);
+  border-radius: var(--border-radius-common);
+  color: var(--color-text-input);
+  resize: vertical;
+  
+  &:focus-visible{
+    outline: none;
+    border-color: var(--color-accept);
+
+  }
+}

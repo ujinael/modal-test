@@ -1,0 +1,15 @@
+@import "@/assets/styles/global.variables.scss";
+@import "@/assets/styles/inputs/input.styles.scss";
+*{
+box-sizing:border-box;
+}
+html,body{
+margin:0;
+padding:0;
+background: var(--color-bg-main);
+font-family: sans-serif;
+color: var(--color-text-main);
+}
+.cursor-pointer{
+cursor: pointer;
+}
